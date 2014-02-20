@@ -48,5 +48,5 @@ end
 
 # Stripe API
 gem 'stripe'
-
+gem 'infusionsoft'
 

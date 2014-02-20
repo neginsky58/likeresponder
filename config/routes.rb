@@ -3,7 +3,11 @@ Likeresponder::Application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+  root 'payments#'
+
+  get '/signup-monthly-plan' => 'payments#monthly_plan'
+  get '/signup-quarterly-plan' => 'payments#quarterly_plan'
+  get '/signup-annual-plan' => 'payments#annual_plan'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
