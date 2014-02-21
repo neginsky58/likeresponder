@@ -4,11 +4,18 @@
   <title>Likeresponder</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
-  <%= csrf_meta_tags %>
+  <%= csrf_meta_tags %>  
+  
+  <%= stylesheet_link_tag 'custom' %>
 </head>
 <body>
+  <%= render 'layouts/header' %>
+  <div class="page-container">
+    <div class="container"
+      <%= yield %>
+    </div>
+  </div>
 
-<%= yield %>
-
+  <%= render 'layouts/footer' %>
 </body>
 </html>
