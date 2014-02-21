@@ -3,7 +3,7 @@ Likeresponder::Application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root 'payments#'
+  root 'payments#monthly_plan'
 
   get '/signup-monthly-plan' => 'payments#monthly_plan'
   get '/signup-quarterly-plan' => 'payments#quarterly_plan'
