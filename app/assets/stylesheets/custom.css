@@ -8,10 +8,9 @@
 .header-top {
   line-height: 100px;
 }
-.page-container {  
-  min-height: 700px;
-  width: ;
-
+.container {  
+  max-width: 848px;
+ 
 }
 footer {
   height: 87px;
@@ -21,7 +20,13 @@ footer {
   min-height: 100px;
   padding: 32px 0 5px 0;  
 }
-
+.container .content {
+  padding: 40px 0;
+}
+.btn-order {
+  background-color: #dd2401;
+  color: #fff;
+}
 /*.step-menu-inside-right,
 .step-menu-inside-left {
   width: 100%;  
