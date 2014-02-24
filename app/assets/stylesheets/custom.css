@@ -26,6 +26,16 @@ footer {
 .btn-order {
   background-color: #dd2401;
   color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 32px;
+  height: 58px;
+}
+.btn-coupon-apply {
+  background-color: #dd2401;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
 }
 /*.step-menu-inside-right,
 .step-menu-inside-left {

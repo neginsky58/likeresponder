@@ -70,42 +70,97 @@
           <label>Credit Card Number</label>
           <input type="text" class="form-control" name="cardnumber">
         </div>
-
         <div class="col-xs-12 col-sm-12 col-md-12">      
           <div class="col-xs-8 col-sm-8 col-md-8">
+            <label>Expiration Date</label>
+          </div>
+          <div class="col-xs-4 col-sm-4 col-md-4">
+            <label>CVV</label>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12">      
+          <div class="col-xs-4 col-sm-4 col-md-4">
             <div class="form-group">
-              <label>Expiration Date</label>
-              <input type="text" class="form-control" name="year">        
+              <select class="form-control">
+                <option>Month</option>
+                <option value="PA">1</option>
+                <option value="CT">2</option>
+                <option value="NY">3</option>
+                <option value="MD">4</option>
+                <option value="VA">5</option>
+              </select>
             </div>
           </div>
           <div class="col-xs-4 col-sm-4 col-md-4">
-            <div class="form-group">
-              <label>CVV</label>
-              <input type="text" class="form-control" name="cvv">
+            <select class="form-control">
+              <option>Year</option>
+              <option value="PA">2014</option>
+              <option value="CT">2015</option>
+              <option value="NY">2016</option>
+              <option value="MD">2017</option>
+              <option value="VA">2018</option>
+            </select>   
+          </div>          
+          <div class="col-xs-4 col-sm-4 col-md-4">
+            <div class="form-group">              
+              <input type="text" class="form-control" name="cvv">              
             </div>
           </div>
         </div>
-
-
       </div>
   </div>
 
   <div class="col-xs-12 col-sm-12 col-md-12">
     
     <div class="col-xs-12 col-sm-12 col-md-6"> 
-      <div class="form-group">
-        <labe class="well form-control">Order Summary</label>
+      <div class="col-xs-12 col-sm-12 col-md-12 well"> 
+        <div class="form-group">
+          <h3>Order Summary</h3>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-6">
+          <div class="form-group">
+            <label>Plan</label>            
+          </div>
+          <div class="form-group">
+            <label>Monthly</label>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-6">
+          <div class="form-group">
+            <label>CHARGE</label>            
+          </div>
+          <div class="form-group">
+            <label>$47 Each Month</label>
+          </div>
+        </div>
       </div>
     </div>
 
     <div class="col-xs-12 col-sm-12 col-md-6">
       <div class="form-group">
-        <button class="btn btn-order form-control"> PLACE MY ORDER </div>
+        <button class="btn btn-order form-control"> PLACE MY ORDER </button>          
+      </div>
+      <div class="form-group">
+        <p class="well">By clicking "PLACE MY ORDER" you agree to our <a href="#">Terms and Conditions</a></p>
       </div>
     </div>
-
   </div>
-  
+
+
+  <div class="col-xs-12 col-sm-12 col-md-6">
+    <div class="col-xs-12 col-sm-12 col-md-6">
+      <a href="#">Have a coupon?</a>
+    </div>
+    <div class="col-xs-8 col-sm-8 col-md-8">      
+      <div class="form-group">
+        <input type="text" class="form-control" />
+      </div>      
+    </div>
+    <div class="col-xs-4 col-sm-4 col-md-4">
+      <button class="btn btn-coupon-apply form-control"> APPLY </button>          
+    </div>
+  </div>
+
 </form>
 
 
