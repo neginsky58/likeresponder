@@ -1,3 +1,9 @@
+GIT
+  remote: git://github.com/nateleavitt/infusionsoft.git
+  revision: 70f432522ce907ffd3e1ad915db645e82bc45bf1
+  specs:
+    infusionsoft (1.1.7b)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -81,7 +87,6 @@ GEM
     hike (1.2.3)
     http_parser.rb (0.5.3)
     i18n (0.6.9)
-    infusionsoft (1.1.6)
     jbuilder (1.5.3)
       activesupport (>= 3.0.0)
       multi_json (>= 1.2.0)
@@ -190,7 +195,7 @@ DEPENDENCIES
   cucumber-rails
   database_cleaner
   factory_girl_rails
-  infusionsoft
+  infusionsoft!
   jbuilder (~> 1.2)
   jquery-rails
   jquery-ui-rails

@@ -68,5 +68,5 @@ end
 
 # Stripe API
 gem 'stripe'
-gem 'infusionsoft'
+gem 'infusionsoft', :git =>'git://github.com/nateleavitt/infusionsoft.git'
 
