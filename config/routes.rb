@@ -8,7 +8,7 @@ Likeresponder::Application.routes.draw do
   get '/signup-monthly-plan' => 'payments#monthly_plan'
   get '/signup-quarterly-plan' => 'payments#quarterly_plan'
   get '/signup-annual-plan' => 'payments#annual_plan'
-
+  get '/update-creditcard' => 'payments#update_creditcard'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

@@ -10,5 +10,6 @@ class PaymentsController < ApplicationController
   def annual_plan
   end
 
-
+  def update_creditcard
+  end
 end
