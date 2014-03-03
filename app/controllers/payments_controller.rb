@@ -4,6 +4,10 @@ class PaymentsController < ApplicationController
 
     @contact = Infusionsoft.contact_add({:FirstName=>'Yev2', :LastName=>'Neg2', :_StripeID =>'cus_2123ADS12312'})
     @contact = Infusionsoft.contact_load(@contact.to_i, [:FirstName, :LastName, :_StripeID])
+
+
+    @contact = Infusionsoft.contact_add({:FirstName=>'Yev2', :LastName=>'Neg2', :_StripeID =>'cus_2123ADS12312'})
+    @contact = Infusionsoft.contact_load(@contact.to_i, [:FirstName, :LastName, :_StripeID])
     
   end
   
